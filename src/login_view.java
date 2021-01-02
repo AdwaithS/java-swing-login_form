@@ -79,7 +79,7 @@ public class login_view extends JFrame
                 else
                 {
                     //a pop-up box
-                    JOptionPane.showMessageDialog(null, "Login failed!","Failed!!",
+                    JOptionPane.showMessageDialog(null, "Wrong password. Try again","Failed!!",
                             JOptionPane.ERROR_MESSAGE);
                 }
             }//if
