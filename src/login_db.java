@@ -9,7 +9,7 @@ public class login_db {
 
             //MAKE SURE YOU KEEP THE mysql_connector.jar file in java/lib folder
             //ALSO SET THE CLASSPATH
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/loginform", "root", "root");
             pst = con.prepareStatement("select * from login where username=? and password=?");
 
